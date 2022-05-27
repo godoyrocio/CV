@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+body{ 
+	margin: 0px;
+	max-width: 1700px;
+	width: 100%;
+}
+header{
+
+	background-color:#FFEF1B;
+	padding-left:100px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	height:30px;
+}
+main { 
+	background-color:#8A8987;
+	padding-bottom: 50px;
+}
+#menu{display: none}
+
+nav ul li{
+	list-style: none;
+	font-weight: bold;
+	color: #373734;
+	display: inline;
+	font-family: consolas;
+	font-size: 1.2em; 
+	border-style: dashed;
+	border-color:#373734;
+	margin: 10px;
+	padding: 10px;
+}
+section{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+h1 {
+	color:whitesmoke;
+	font-family: Consolas;
+	font-weight: bolder;
+	font-size: 7em;
+	background-color:black;
+	padding-left: 100px;
+	padding-top: 200px;
+	margin: 0px;
+	margin-bottom: 0px;
+	max-width: 1700px;
+	
+	}
+h2  {
+	font-family: consolas;
+	font-weight:bolder;
+	color:#FFEF1B;
+	font-size: 2em
+	}
+h3 {
+	font-family: Consolas;
+	font-size: 1.6em;
+}
+h4 {
+	font-family: Consolas;
+	color: #373734;
+	font-size: 1.8em;
+}
+h5{
+	font-family: Consolas;
+	font-size: 1.8em;
+	color: #FFEF1B;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+p {
+	font-family: arial;
+}
+li{
+	font-family: arial;
+	list-style: none;
+}
+img{ 	padding-top: 50px;
+		padding-left: 20px;
+		display: flex;
+}
+footer {
+		font-family:Consolas;
+		font-size:1em;
+		background-color:  #FFEF1B;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 100px;
+}
+a {   
+	text-decoration: none;
+	color: #373734;
+	
+}
+
+aside {
+	margin-left: 100px;
+	margin-right: 100px;
+	height:600px;
+	background-color:#373734;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	margin-top: 50px;
+}
+ol li{ 
+	color: whitesmoke;
+	font-size: 15pt;}
+p {
+	font-family: arial;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+#sec1{ 
+		display: flex;
+	
+}
+#sec2 { 
+		display:flex;
+	
+}
+.caja {
+	width:15%;
+	height:10%;
+	margin-top:30px;
+	margin-right: 100px;
+	background-color:#FFEF1B;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	border-width: 2px;
+	border:2px;
+	border-style: dashed;
+	border-color:#373734;
+	color:#373734;
+	font-family:Consolas;
+	font-weight:bold;
+
+	}
+.bienvenidxs {
+	color:#FFEF1B;
+	font-family: Arial;
+	font-size:3em;
+	margin-top:0px;
+	padding-top: 0px;
+	padding-left: 100px;
+	padding-bottom: 150px;
+	background-color:black;
+	}  
+.bio {
+	color: whitesmoke;
+	font-weight: lighter;
+	font-size: 1.6em;
+	padding-top: 15px;
+	padding-left: 30px;
+
+}
+.titulo-bio{
+	max-width: 1000px;
+	width: 80%;
+	font-size: 3em;
+	padding-right: 100px;
+}
+#aside1 {
+	display: flex;
+	align-items: baseline;
+	
+}
+#aside2 {		
+	padding-bottom: 50px;
+	display: flex;
+	
+}
+
+.art1 {
+	margin-top: 0px;
+	padding-bottom: 100px;
+	padding-top: 80px;
+	background-color:#8A8987;
+	background-position: center;
+	display: flex;
+}
+.art2 { padding-left: 100px;
+	width:50%;
+	flex-grow: 5;}
+.historial {padding-top: 50px;
+	margin-left: 35%;
+	margin-bottom: 100px;}
+#contacto {
+	background-color:#FFEF1B;
+	padding-bottom: 20px;
+	padding-top:20px;
+	display:flex;
+	align-content: center;
+}
+.charlemos {
+	font-size:3em;
+	padding-left: 200px;
+}
+.email{
+	padding-left: 100px;
+	font-size: 1.6em;
+	font-family: consolas;
+	font-weight: 600;
+}
+.link{
+	font-size: 0.8em																														;
+	width: 100%;
+	color:#FFEF1B;
+    border: 2px;
+	border-style:dashed;
+	border-color:#FFEF1B;
+	padding: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+	header{ padding-left: 0px;
+		
+	}
+	h1{
+		font-size: 4em;
+		padding-left: 70px;
+		padding-right: 30px;
+		padding-top: 100px;
+	}
+	h2{
+		
+	}
+	
+	.bienvenidxs {
+		font-size: 2em;
+		padding-left: 70px;
+		padding-bottom: 100px;
+		
+	}
+	.titulo-bio {
+		padding-right:0px;
+		padding-left: 30px;
+	}
+	.bio {
+		font-size: 1.4em;
+	}
+	h2,.titulo-bio,.charlemos{
+		font-size: 3em;
+	}
+	section {
+		padding-left:30px;
+		padding-right: 30px;
+		align-items: center;
+	}
+	#sec2 { 
+	display:flex;
+	flex-direction: column;}
+	.caja {
+		margin:6%;
+		width: 80%;
+		padding-right: 0px;
+		padding-left: 30px;
+	}
+	#sec1 { 
+	display:flex;
+	flex-direction: column-reverse;
+	}
+	.art1{
+		flex-direction: column;
+		width: 90%;
+	}
+	.historial {
+		margin-left: 30px;
+		padding-top:0px;
+	}
+	.art2{ padding-left: 30px;
+	width: 90%}
+	#contacto{
+		flex-direction: column;
+		align-content:flex-start;
+	}
+	aside{ width: 80%;
+		margin: 10%;
+		height: 25%;
+		padding: 0px;
+	
+	}
+	#aside1,#aside2 {
+		flex-direction: column;
+			align-items:center;
+		
+	}
+	
+	img {
+		padding-top:10px;
+		width: 100%;
+		height: 100%;
+	}
+	.link {margin: 30px;
+		font-size: 0.6em;
+
+		
+	}
+	.charlemos,.email{
+		padding-left: 0px;
+		text-align: center;
+	}
+.email{ font-family: consolas;
+		font-weight: 550;
+		font-size: 1.5em;
+
+	}
+	footer{
+		padding-left: 50px
+	}
+	h5{
+		padding: 0px;
+	}
+	#menu{display: flex;
+	flex:auto;	
+	color:black
+}
+	nav ul li {display: none}
+		#menu{ 
+		position: fixed;
+		top: 0;
+	bottom: 0;
+	left:-300px; 
+	width: 500px;                             
+	z-index: 1;
+	padding: 90px 30px 30px;
+	background: #FFEF1B;
+	transition: all 0.75s ease;
+	font-size: 0.6em;
+	overflow-y:inherit;
+
+}
+.signo-menu{ margin-top: 10px;
+	width: 30px;
+height: 30px}
+}
