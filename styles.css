@@ -352,13 +352,14 @@ input{
 	font-family: arial;
 	padding-top: 2em;
 	display: flex;
-	align-items: baseline;
+	align-items:baseline;
+	padding: 0.5em;
 	
 }
 
 .logos{ 
-	width: 100px;
-	height: 100px;
+	width: 45px;
+	height: 45px;
 	margin: 0px;
 }
 
