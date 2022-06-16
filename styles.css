@@ -285,7 +285,7 @@ h2 span {
 }
 .formulario{
 		background-color:#FACF00;
-		height: 60em;
+		height: 40em;
 		width: 100%;
 		justify-content: space-around;
 		align-content: center;
@@ -306,8 +306,9 @@ form{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 50em;
-		width: 40em; 
+		height: 43em;
+		width: 40em;
+		background-color:#373734;
 		border-style: dashed;
 		border-color:  #FFEF1B
 }
@@ -319,7 +320,8 @@ input{
 		margin: 0.5em;
 		height: 3.5em;
 		width:30em;
-		background-color:#373734;
+		background-color:#060300;
+		font-family: consolas;
 		font-size: 1em;
 		font-weight: 500;
 		color: whitesmoke;
@@ -340,10 +342,25 @@ input{
 .h3index{color: whitesmoke;
 		font-size: 4em;}
 
+.contacto {
+		display: flex
+}
+.redes{
+	color: #FFEF1B;
+	font-size: 1.1em;
+	font-weight: 500;
+	font-family: arial;
+	padding-top: 2em;
+	display: flex;
+	align-items: baseline;
+	
+}
 
-
-
-
+.logos{ 
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+}
 
 
 
