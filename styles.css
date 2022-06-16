@@ -250,7 +250,23 @@ h2 span {
 	border-color:#FFEF1B;
 	padding: 10px;
 }
-
+.cards {display: flex}
+.card{	
+		height: 30em;
+		width: 20em;
+		background-color:#000C; 
+		border-radius: 5px;
+		border: 2px;
+		border-style: dashed;
+		border-color: #FFEF1B;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		margin: 1em;
+		margin-bottom: 3em;
+}
 
 @media screen and (max-width: 600px) {
 	
