@@ -7,6 +7,10 @@ body{
 	background-color: #8A8987;
 }
 .maingaleria{ height: 39em;}
+.mainindex{
+	background-color: #060300;
+
+}
 header{
 
 	background-color:#FFEF1B;
@@ -44,7 +48,7 @@ h1 {
 	font-family: Consolas;
 	font-weight: bolder;
 	font-size: 7em;
-	background-color:black;
+	background-color:#060300;
 	padding-left: 100px;
 	padding-top: 200px;
 	margin: 0px;
@@ -254,8 +258,10 @@ h2 span {
 	border-color:#FFEF1B;
 	padding: 10px;
 }
-.cards {display: flex;
-align-items: center; }
+.cards {
+		display: flex;
+		align-items: center;
+}
 .card{	
 		height: 20em;
 		width: 20em;
@@ -269,18 +275,76 @@ align-items: center; }
 		margin: 1em;
 		margin-bottom: 3em;
 }
-.galeriaimg{width:200px;
-height: 300px;
-border: 2px;
-border-style: dashed;
-border-color: #FFEF1B;
-padding:0.8em;}
+.galeriaimg{
+		width:200px;
+		height: 300px;
+		border: 2px;
+		border-style: dashed;
+		border-color: #FFEF1B;
+		padding:0.8em;
+}
+.formulario{
+		background-color:#FACF00;
+		height: 60em;
+		width: 100%;
+		justify-content: space-around;
+		align-content: center;
+		display: flex;
+		flex-direction: column;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+.form{	
+		margin-top: 5em;
+		margin-bottom: 5em;
+		margin-left: 30%;
+		padding-top:2em;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 50em;
+		width: 40em;
+		background-color:#8B368C; 
+		border-radius: 4em;
+}
+.contactate {
+		text-align: center;
+		color: #FFE9F6;
+}
+input{
+		margin: 0.5em;
+		border-radius: 56px;
+		height: 3.5em;
+		width:30em;
+		background-color:#FFE9F6;
+		font-size: 1em;
+		font-weight: 500;
+		color: #232323;
+		border: none;
+		padding-left: 2em;
+
+}
+#Mensaje {
+		height:20em;
+}
+#enviar{
+		padding: 0;
+		margin-left: 10em;
+		margin-bottom: 4em;
+		width: 12em;
+}
 @media screen and (max-width: 600px) {
 	
-	nav ul li {display: flex;
+	nav ul li {
+		display: flex;
 		
 	}
-	header{ padding-left: 0px;
+	header{
+		padding-left: 0px;
 		padding-right: 50px;
 		height: 50%;
 						
@@ -339,8 +403,10 @@ padding:0.8em;}
 		margin-left: 30px;
 		padding-top:0px;
 	}
-	.art2{ padding-left: 30px;
-	width: 90%}
+	.art2{ 
+		padding-left: 30px;
+		width: 90%
+	}
 	#contacto{
 		flex-direction: column;
 		align-content:flex-start;
