@@ -346,15 +346,8 @@ input{
 		display: flex
 }
 .redes{
-	color: #FFEF1B;
-	font-size: 1.1em;
-	font-weight: 500;
-	font-family: arial;
-	padding-top: 2em;
-	display: flex;
-	align-items:baseline;
-	padding: 0.5em;
-	
+	margin-top:0px;;
+	display: flex
 }
 
 .logos{ 
