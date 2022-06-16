@@ -307,9 +307,9 @@ form{
 		justify-content: center;
 		align-items: center;
 		height: 50em;
-		width: 40em;
-		background-color:#8B368C; 
-		border-radius: 4em;
+		width: 40em; 
+		border-style: dashed;
+		border-color:  #FFEF1B
 }
 .contactate {
 		text-align: center;
@@ -317,14 +317,14 @@ form{
 }
 input{
 		margin: 0.5em;
-		border-radius: 56px;
 		height: 3.5em;
 		width:30em;
-		background-color:#FFE9F6;
+		background-color:#373734;
 		font-size: 1em;
 		font-weight: 500;
-		color: #232323;
-		border: none;
+		color: whitesmoke;
+		border-style: dashed;
+		border-color:  #FFEF1B;
 		padding-left: 2em;
 
 }
@@ -337,6 +337,18 @@ input{
 		margin-bottom: 4em;
 		width: 12em;
 }
+.h3index{color: whitesmoke;
+		font-size: 4em;}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
 	
 	nav ul li {
