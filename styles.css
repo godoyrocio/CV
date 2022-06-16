@@ -267,7 +267,8 @@ h2 span {
 		margin: 1em;
 		margin-bottom: 3em;
 }
-
+.galeriaimg{width:200px;
+height: 300px;}
 @media screen and (max-width: 600px) {
 	
 	nav ul li {display: flex;
