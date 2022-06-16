@@ -159,13 +159,13 @@ p {
 	padding-top: 0px;
 	padding-left: 100px;
 	padding-bottom: 150px;
-	background-color:black;
+	background-color:#060300;
 	
 	}
 h1 span {
 	position: absolute;
 	right: 0;
-	background-color: black;
+	background-color: #060300;
 	border-left: 1px solid whitesmoke;
 	animation-name: hola;
 	animation-duration: 5s;
@@ -181,7 +181,7 @@ h1 span {
 h2 span {
 	position: absolute;
 	right: 0;
-	background-color: black;
+	background-color: #060300;
 	animation-name: bienvenidxs;
 	animation-duration: 5s;
 	animation-direction: alternate;	
