@@ -250,25 +250,27 @@ h2 span {
 	border-color:#FFEF1B;
 	padding: 10px;
 }
-.cards {display: flex}
+.cards {display: flex;
+align-items: center; }
 .card{	
-		height: 30em;
+		height: 20em;
 		width: 20em;
 		background-color:#000C; 
-		border-radius: 5px;
-		border: 2px;
-		border-style: dashed;
-		border-color: #FFEF1B;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		text-align: center;
-		align-items: center;
+		align-content: center;
+		padding: 1em;
 		margin: 1em;
 		margin-bottom: 3em;
 }
 .galeriaimg{width:200px;
-height: 300px;}
+height: 300px;
+border: 2px;
+border-style: dashed;
+border-color: #FFEF1B;
+padding:0.8em;}
 @media screen and (max-width: 600px) {
 	
 	nav ul li {display: flex;
